@@ -17,7 +17,20 @@ function App() {
     <div className="App">
     <h1>Move UP/ Move Down</h1>
 
+
+      <button
+      onClick={move}
+      >Move Up</button>
+
+<button
+      onClick={moveDown}
+      >Move Down</button>
+
+<div className="box" style={{  transform: `translateY(${top}px)` }}>
+      
+      </div>
     </div>
+   
   );
 }
 
