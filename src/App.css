@@ -1,7 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 .App {
   font-family: sans-serif;
@@ -13,8 +10,8 @@
 }
 
 .box {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   background: #dc5b39;
   margin: 0 auto;
   transform: translateY(300px);
@@ -22,21 +19,29 @@
 }
 
 .box1 {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   background: yellow;
-  margin: 0 auto;
+  margin: auto;
   transform: translateX(300px);
   transition: 0.3s cubic-bezier(0.56, 0.2, 0.46, 1.27) all;
 }
+
 button {
-  margin-top: 40px;
-  padding: 20px 40px;
+  margin-top: 10px;
+  padding: 5px;
   background: #049ad7;
   color: rgb(225, 244, 252);
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 10px;
   border: none;
-  width: 300px;
+  width: 100px;
+  cursor: grab;
+}
+
+.btn-down {
+  margin-top: 30vh;
   
 }
+
+
