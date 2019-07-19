@@ -6,7 +6,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10px;
   min-height: 100vh;
   background: #44a851;
   color: rgb(225, 250, 228);
@@ -21,6 +21,14 @@
   transition: 0.3s cubic-bezier(0.56, 0.2, 0.46, 1.27) all;
 }
 
+.box1 {
+  width: 150px;
+  height: 150px;
+  background: yellow;
+  margin: 0 auto;
+  transform: translateX(300px);
+  transition: 0.3s cubic-bezier(0.56, 0.2, 0.46, 1.27) all;
+}
 button {
   margin-top: 40px;
   padding: 20px 40px;
@@ -29,5 +37,6 @@ button {
   font-size: 40px;
   border-radius: 10px;
   border: none;
+  width: 300px;
   
 }
